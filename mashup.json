@@ -1,0 +1,80 @@
+{
+  "id": "sigf/minecraft-modern-warfare-2-takeover",
+  "version": "1.0.0",
+  "name": "Modern Warfare 2 Takeover",
+  "tagline": "Bring Modern Warfare 2 into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "minecraft",
+      "role": "host",
+      "engine": "Minecraft Java 26.3 + Fabric Loader 0.19.5 + Fabric API (Java 25, Mojang names)",
+      "mc": "26.3",
+      "loader": "fabric@0.19.5"
+    },
+    {
+      "game": "mw2",
+      "role": "guest",
+      "label": "Modern Warfare 2"
+    }
+  ],
+  "requires": [
+    {
+      "id": "fabric-loader"
+    }
+  ],
+  "install": [
+    {
+      "game": "minecraft",
+      "strategy": "mrpack",
+      "pack": {
+        "src": "minecraft-modern-warfare-2-takeover.mrpack",
+        "url": "https://github.com/SIGFAI/minecraft-modern-warfare-2-takeover/releases/download/v1.0.0/minecraft-modern-warfare-2-takeover.mrpack",
+        "sha256": "936b39f739d34e542812e37e41cbc6b024016e27bd920450caf137f37e8474f1",
+        "size": 267263
+      },
+      "jvm_args": [
+        "-Dsigf.player=1"
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "minecraft",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "minecraft-modern-warfare-2-takeover.mrpack",
+      "url": "https://github.com/SIGFAI/minecraft-modern-warfare-2-takeover/releases/download/v1.0.0/minecraft-modern-warfare-2-takeover.mrpack",
+      "sha256": "936b39f739d34e542812e37e41cbc6b024016e27bd920450caf137f37e8474f1",
+      "size": 267263
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/minecraft-modern-warfare-2-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-09-dd5f23ed.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "minecraft",
+    "status": "draft"
+  },
+  "built_at": "2026-10-09T06:23:26.696Z",
+  "server": {
+    "game": "minecraft",
+    "mc": "26.3",
+    "loader": "fabric@0.19.5",
+    "ram_gb": 2,
+    "max_players": 10,
+    "pack": "minecraft-modern-warfare-2-takeover.mrpack"
+  }
+}
