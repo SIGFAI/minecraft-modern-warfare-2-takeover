@@ -1,0 +1,8 @@
+Clip moments (Modern Warfare 2 Takeover). Tick only what was seen in the preview.
+[x] 1. 0-10 s: the title, then camo OpFor soldiers and skull-masked Ghosts storm in; the player fires rifle bursts with tracers, hit markers and blood, soldiers shoot back.
+[x] 2. About 12 s: the third kill in a row calls UAV ONLINE, every enemy glows through the terrain.
+[x] 3. About 24 s: kill five in a row, a care package drops under a parachute on red smoke and lands as a loot chest.
+[x] 4. About 38 s: kill seven in a row, a Harrier jet crosses the sky and bombs the squad, mobs burn and fly.
+[x] 5. About 54 s: kill ten in a row, TACTICAL NUKE countdown, white-out flash, a mushroom cloud, soldiers are blown away.
+Interactions with Minecraft: the soldiers are real mobs (health, knockback, burning, daylight AI), the Juggernaut is an iron golem, the care package becomes a real chest with loot, bombs burn and kill mobs.
+Weak: the held rifle is cropped at the screen corner, and the soldiers can look small when they spawn far away.
